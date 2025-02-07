@@ -121,6 +121,6 @@ def main(model_path, data_path):
     return predicted_classes, accuracy
 
 # Run the main function with the paths to your model and data
-model_path = 'best_ecg_model.keras'
-data_path = 'data.csv'
+model_path = 'change_path_with_your_train_model'
+data_path = 'Change_path_with_your_data'
 predicted_classes, accuracy = main(model_path, data_path)
